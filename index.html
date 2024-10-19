@@ -6,7 +6,7 @@
 
 
 <body>
-<h1> <font color=’#800080’>Форматирование текста</font>
+<h1> <font color='#800080'>Форматирование текста</font>
 </h1>
 <div class="rainbow-text">
     <span class="block-line"><span><span style="color:#d60000">Ф</span><span style="color:#6bd600">А</span><span style="color:#00d6d6">Й</span><span style="color:#6b00d6">Л</span></span></span>
@@ -29,7 +29,7 @@
 Иванов Иван Иванович 1985
 Петров Петр Петрович 1878
 </pre>
-<big><font color=’#0000FF’>Формулы</font></big>
+<big><font color='#0000FF'>Формулы</font></big>
  <i>Формула</i>
 </center>
 <sub><p> align="right">Выравнивание по правому краю</p></sub>
@@ -65,27 +65,69 @@
 
 
 
-<Form name=’text’>
+<Form name='text'>
 <p>Оставьте свое сообщение в следующем окне и нажмите на кнопке для его 
 отправления</p>   </h1>
 Заголовок с внешним отступом 10 пунктов.
           
-<textarea name=’koment’ rows=’15’ cols=’30’ wrap=’off’>Напишите свой вариант ответа</textarea><br>
-<p><input type=’submit’></p>
-<p><input type=’reset’></p>
+<textarea name='koment' rows='15' cols='30' wrap='off'>Напишите свой вариант ответа</textarea><br>
+<p><input type='submit'></p>
+<p><input type='reset'></p>
 </form>
 <h1 class="st">
-<A HREF=’INDEX2.HTML’>самостоятельная работа </A> - это текстовая гиперссылка.
-<A HREF=’INDEX2.HTML’><img src=’img1.gif’></A> - это графическая гиперссылка.
-<A HREF=’http://mail.ru’>Почта</A> - ссылка на ресурс в Интернет.</h1>
+<a HREF='INDEX2.HTML'>самостоятельная работа </A> - это текстовая гиперссылка.
+<a HREF='https://www.figma.com/design/te3wjVwjl8lU4zQxZTnjhH/Figma-basics?node-id=601-9&t=erIUBxZ815j3caUP-1'>Прототип сайта на фигма</a> 
+<a HREF='http://mail.ru'>Почта</a> - ссылка на ресурс в Интернет.</h1>
 
+
+<style>
 #demotext {
 color: #FFFFFF;
 background: #232323;
 text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
-color: #FFFFFF;
-background: #232323;
 }
-
+   
+	/* Стили таблицы (IKSWEB) */
+	table.iksweb{text-decoration: none;border-collapse:collapse;width:100%;text-align:center;}
+	table.iksweb th{font-weight:normal;font-size:25px; color:#ffffff;background-color:#a7ad63;}
+	table.iksweb td{font-size:33px;color:#0a06d6;}
+	table.iksweb td,table.iksweb th{white-space:pre-wrap;padding:33px 0px;line-height:33px;vertical-align: middle;border: 5px solid #ff0000;}	table.iksweb tr:hover{background-color:#f9fafb}
+	table.iksweb tr:hover td{color:#0095ff;cursor:default;}
+</style>
+<table class="iksweb">
+<thead>
+<tr>
+	<th>Заголовок</th>
+	<th>Заголовок</th>
+	<th>Заголовок</th>
+	<th>Заголовок</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>Ячейка</td>
+	<td>Ячейка</td>
+	<td>Ячейка</td>
+	<td>Ячейка</td>
+</tr>
+<tr>
+	<td>Ячейка</td>
+	<td>Ячейка</td>
+	<td>Ячейка</td>
+	<td>Ячейка</td>
+</tr>
+<tr>
+	<td>Ячейка</td>
+	<td>Ячейка</td>
+	<td colspan="2">Ячейка</td>
+</tr>
+<tr>
+	<td>Ячейка</td>
+	<td>Ячейка</td>
+	<td>Ячейка</td>
+	<td>Ячейка</td>
+</tr>
+</tbody>
+</table>
 </body>
 </html>
